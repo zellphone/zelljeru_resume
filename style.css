@@ -1,0 +1,141 @@
+* {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 5px;
+}
+
+.stuff h1 {
+  font-family: Impact;
+  text-align: center;
+  color: #288ba8;
+}
+
+.stuff h3 {
+  font-family: Impact;
+  text-align: center;
+  color: #746ab0;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #03ac13;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 40px;
+  width: 100%;
+  background-color: #03ac13;
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 1250px;
+  width: 45px;
+  background-color: #1338be;
+  float: left;
+  position: inherit;
+}
+
+.right {
+  height: 1250px;
+  width: 45px;
+  background-color: #1338be;
+  float: right;
+  position: inherit;
+}
+
+img {
+ max-width: 50%;
+ max-height: 50%;
+ border: 5px solid #0A1172;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, td {
+  border: 3px solid #0A1172;
+  font-family: Lucida Calligraphy;
+  font-size: 20px;
+  text-align: center;
+}
+
+table {
+  max-width: 75%;
+  max-height: 75%; 
+}
+
+th {
+  font-family: Cooper Black;
+}
+
+.socials img {
+  height: 15%;
+  width: 15%;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p {
+  font-family: Cooper Black;
+}
+
+li {
+  font-family: Lucida Handwriting;
+}
+
+.head {
+  font-size: 20px;
+}
+
+a:link {
+  color: hotpink;
+}
+
+#name {
+  font-family: Ravie;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
